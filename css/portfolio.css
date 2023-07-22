@@ -87,6 +87,33 @@ color: #272142;
 .project-description{
   padding: 80px 60px;
 }
+.logo {
+ max-height: 40px; 
+}
+nav{
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+margin-left: 10px;
+  }
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+nav a :hover,
+nav li.active a {
+
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
 @media(max-width:900px){
   h1{
     font-size: 44px;
@@ -106,4 +133,7 @@ color: #272142;
     padding: 0;
     text-align: center;
   }
+}
+nav a {
+  font-size: 14px;
 }
