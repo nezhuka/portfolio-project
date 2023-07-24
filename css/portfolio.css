@@ -78,7 +78,7 @@ color: #272142;
   color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 10px 30px; 
+  padding: 10*--px 30px; 
 }
 .btn-branding-outline{
  color: var(--branding-color);
